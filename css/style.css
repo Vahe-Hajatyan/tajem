@@ -1,0 +1,2376 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Black;
+    src: url(../PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../PlayfairDisplay-Regular.ttf);
+}
+
+header {
+    background-image: url(../img/nkar1.jpg);
+    height: 657px;
+}
+
+.memer {
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 20px 0 0 190px;
+}
+
+.memer span {
+    font-family: Roboto-Thin;
+    font-size: 30px;
+    color: #00e0d0;
+    margin-left: 10px;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+    margin-top: 35px;
+    margin-right: 100px;
+}
+
+.menu li {
+    margin-right: 15px;
+    display: inline;
+}
+
+.menu li:last-of-type {
+    margin-right: 0px;
+}
+
+.menu_link {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto-Black;
+}
+
+.menu_link:hover {
+    color: #00e0d0;
+}
+
+.menu_link:hover:before {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    -webkit-transition: -webkit-transform 0.25s;
+    transition: -webkit-transform 0.25s;
+    -o-transition: transform 0.25s;
+    transition: transform 0.25s;
+    transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
+.menu_link:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #00e0d0;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right;
+    -ms-transform-origin: right;
+    transform-origin: right;
+    -webkit-transition: -webkit-transform 0.25s;
+    transition: -webkit-transform 0.25s;
+    -o-transition: transform 0.25s;
+    transition: transform 0.25s;
+    transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
+.TEAM {
+    display: inline-block;
+    padding-top: 165px;
+}
+
+.Agen {
+    font-family: PlayfairDisplay-Black;
+    text-align: center;
+    color: #fff;
+    font-size: 41px;
+}
+
+.This {
+    font-family: Roboto-Light;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    word-spacing: 2px;
+}
+
+.bbb {
+    border-top: 2px #00e0d0 solid;
+    margin: 23px 337px 23px 337px;
+}
+
+.LEARN {
+    height: 36px;
+    width: 118px;
+    background-color: transparent;
+    border: 1px #00e0d0 solid;
+}
+
+.LEARN a {
+    font-family: Roboto-Black;
+    color: #00e0d0;
+    font-size: 14px;
+    padding: 8px 13px 7px 16px;
+}
+
+.MORE {
+    text-align: center;
+    padding: 55px 0 125px 0;
+}
+
+.mep {
+    text-align: center;
+}
+
+.mep button {
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    border: 1px #fff solid;
+}
+
+.mep button:hover {
+    background-color: #00e0d0;
+    border: 1px #00e0d0 solid;
+}
+
+.elit {
+    height: 400px;
+}
+
+.logo {
+    float: left;
+    padding: 70px 0 0 330px;
+}
+
+.Ipsum {
+    display: inline-block;
+    padding-left: 105px;
+}
+
+.STOR {
+    font-family: PlayfairDisplay-Black;
+    color: #413d4b;
+    font-size: 22px;
+    padding: 55px 0 20px 0;
+}
+
+.nisi {
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #413d4b;
+    padding-bottom: 20px
+}
+
+.erat {
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #413d4b;
+    padding-bottom: 30px;
+}
+
+.odio {
+    background-image: url(../img/nkar2.jpg);
+    height: 545px;
+}
+
+.taciti i {
+    color: #fff;
+    font-size: 95px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nost i {
+    color: #fff;
+    font-size: 95px;
+}
+
+.taciti p {
+    font-family: Roboto-Black;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.taciti {
+    text-align: center;
+    padding-top: 222px;
+}
+
+.torq {
+    height: 750px;
+}
+
+.meno {
+    text-align: center;
+    padding: 100px 400px 0 400px;
+}
+
+.memor {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 22px;
+    color: #413d4b;
+}
+
+.miver {
+    font-family: PlayfairDisplay-Regular;
+    font-size: 15px;
+    color: #666666;
+    padding-top: 5px;
+}
+
+.maml {
+    border-top: 2px #c6c4c9 solid;
+    margin: 10px 250px 70px 250px;
+}
+
+.Proin {
+    font-family: Roboto-Black;
+    font-size: 15px;
+    color: #413d4b;
+    padding: 10px 0 6px 0;
+}
+
+.velit {
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #666666;
+}
+
+.Lorem {
+    display: inline-grid;
+    text-align: center;
+    width: 280px;
+    height: 155px;
+    padding-left: 250px;
+}
+
+.Loref {
+    display: inline-grid;
+    text-align: center;
+    width: 280px;
+    height: 182px;
+}
+
+.Loren {
+    display: inline-grid;
+    text-align: center;
+    width: 280px;
+    height: 155px;
+}
+
+.sit {
+    border-bottom: 1px solid #e2dede;
+    margin-right: -4px;
+}
+
+.stik {
+    border-right: 1px solid #e2dede;
+    border-left: 1px solid #e2dede;
+    margin-right: -4px;
+}
+
+.stik img {
+    padding-top: 35px;
+}
+
+.sig {
+    padding-bottom: 35px;
+}
+
+.Photo {
+    background-image: url(../img/nkar3.jpg);
+    height: 710px;
+}
+
+.vers {
+    text-align: center;
+    padding: 70px 400px 0 400px;
+}
+
+.noni {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.veli {
+    font-family: PlayfairDisplay-Regular;
+    font-size: 15px;
+    color: #fff;
+}
+
+.valy {
+    border-top: 2px #c6c4c9 solid;
+    margin: 10px 250px 70px 250px;
+}
+
+.FOUN {
+    text-align: center;
+    display: inline-grid;
+    height: 300px;
+    width: 220px;
+    border: 1px solid #7f7c94;
+    margin-left: 185px;
+}
+
+.FOUl {
+    text-align: center;
+    display: inline-grid;
+    height: 300px;
+    width: 220px;
+    border: 1px solid #7f7c94;
+    margin-left: 25px;
+}
+
+.FOUf {
+    text-align: center;
+    display: inline-grid;
+    height: 300px;
+    width: 220px;
+    border: 1px solid #7f7c94;
+    margin-left: 25px;
+}
+
+.SEMF {
+    font-family: Roboto-Black;
+    color: #fff;
+    font-size: 15px;
+}
+
+.UCUK {
+    font-family: Roboto-Light;
+    color: #adacb9;
+    font-size: 13px;
+}
+
+.bor {
+    padding-top: 15px;
+}
+
+.ROMAK {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.ROMAK p {
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 15px;
+}
+
+.MOR {
+    padding-top: 30px;
+}
+
+.LEAR {
+    height: 36px;
+    width: 135px;
+    background-color: transparent;
+    border: 1px #00e0d0 solid;
+}
+
+.LEAR a {
+    font-family: Roboto-Black;
+    color: #00e0d0;
+    font-size: 14px;
+    padding: 9px 15px 9px 17px;
+}
+
+.part {
+    height: 730px;
+}
+
+.jec {
+    float: right;
+    padding: 90px 190px 0 0;
+}
+
+.chip {
+    display: inline-block;
+    padding: 80px 0 0 190px;
+    font-family: PlayfairDisplay-Bold;
+    color: #413d4b;
+    font-size: 22px;
+}
+
+.eero {
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: #413d4b;
+}
+
+.raer {
+    padding-left: 5px;
+    font-size: 15px;
+    color: #413d4b;
+}
+
+.seri img {
+    width: 1349px;
+    height: 400px;
+}
+
+.seri {
+    padding-top: 50px;
+}
+
+.chep {
+    height: 36px;
+    width: 118px;
+    background-color: transparent;
+    border: 1px #00e0d0 solid;
+}
+
+.chep a {
+    font-family: Roboto-Black;
+    color: #00e0d0;
+    font-size: 14px;
+    padding: 9px 18px 9px 19px;
+}
+
+.propka {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.fyuzhn {
+    background-image: url(../img/nkar4.jpg);
+    height: 500px;
+}
+
+.live {
+    text-align: center;
+}
+
+.lim {
+    font-family: PlayfairDisplay-Regular;
+    font-size: 100px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.omr {
+    font-family: PlayfairDisplay-Regular;
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.gri {
+    font-family: Roboto-Black;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.gov {
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 13px;
+}
+
+.JANE {
+    padding: 50px 0 0 520px;
+    display: inline-block;
+}
+
+.JANE button {
+    background-color: transparent;
+    border: none;
+}
+
+.JANE i {
+    color: #fff;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.JANE i:active {
+    color: #00e0d0;
+}
+
+.mard1 {
+    width: 45px;
+}
+
+.mimber {
+    display: flex;
+    align-items: center;
+}
+
+.mard {
+    padding-right: 10px;
+}
+
+.mard:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.1s ease;
+}
+
+.TENG {
+    height: 600px;
+}
+
+.ekzi {
+    display: inline-block;
+    padding: 80px 0 0 190px;
+    font-family: PlayfairDisplay-Bold;
+    color: #413d4b;
+    font-size: 22px;
+}
+
+.rmix {
+    float: right;
+    padding: 80px 475px 0 0;
+    font-family: PlayfairDisplay-Bold;
+    color: #413d4b;
+    font-size: 22px;
+}
+
+textarea {
+    resize: none;
+    padding: 10px 2px 15px 11px;
+    border: 1px solid #e5e5e5;
+    font-family: Roboto-Light;
+    font-size: 14px;
+    margin-top: 21px;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.inp {
+    padding: 10px 194px 10px 11px;
+    border: 1px solid #e5e5e5;
+    font-family: Roboto-Light;
+    font-size: 14px;
+    margin-top: 21px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.HAPPY {
+    display: inline-block;
+    padding: 10px 0 0 190px;
+}
+
+.chik {
+    height: 36px;
+    width: 118px;
+    background-color: transparent;
+    border: 1px #00e0d0 solid;
+}
+
+.chik a {
+    font-family: Roboto-Black;
+    color: #00e0d0;
+    font-size: 14px;
+    padding: 9px 31px 9px 31px;
+}
+
+.snik {
+    padding-top: 20px;
+}
+
+.mek {
+    padding-left: 70px;
+}
+
+.brend1 {
+    display: inline-block;
+}
+
+.brend2 {
+    display: inline-block;
+}
+
+.bren1 {
+    padding: 0 0 0 20px;
+}
+
+.bren2 {
+    padding: 25px 0 0 20px;
+}
+
+.bren3 {
+    padding: 25px 0 0 20px;
+}
+
+.bren4 {
+    padding: 25px 0 0 35px;
+}
+
+.bren5 {
+    padding: 25px 0 0 35px;
+}
+
+.erku {
+    padding-left: 35px;
+}
+
+.bren6 {
+    padding: 0 0 0 20px;
+}
+
+.bren7 {
+    padding: 30px 0 0 20px;
+}
+
+.bren8 {
+    padding: 25px 0 0 45px;
+}
+
+.bren9 {
+    padding: 24px 0 0 45px;
+}
+
+.bren10 {
+    padding: 25px 0 0 20px;
+}
+
+footer {
+    background-image: url(../img/nkar5.jpg);
+    height: 400px;
+}
+
+.meruy {
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 80px 0 0 250px;
+}
+
+.meruy span {
+    font-family: Roboto-Thin;
+    font-size: 30px;
+    color: #00e0d0;
+    margin-left: 10px;
+}
+
+.titl1 {
+    display: inline-block;
+    padding: 95px 0 0 230px;
+}
+
+.titl1 p {
+    font-family: Roboto-Black;
+    color: #fff;
+    font-size: 15px;
+}
+
+.titl2 {
+    display: inline-block;
+    padding: 95px 0 0 245px;
+}
+
+.titl2 p {
+    font-family: Roboto-Black;
+    color: #fff;
+    font-size: 15px;
+}
+
+.piorpl {
+    padding-top: 50px;
+}
+
+.part1 {
+    display: inline-grid;
+    padding: 0 0 0 245px;
+}
+
+.orem {
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+}
+
+.part2 {
+    display: inline-grid;
+    padding: 0 0 0 100px;
+}
+
+.Ruko {
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nomer {
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.dig i {
+    margin-left: -15px;
+    color: #fff;
+}
+
+.dig {
+    padding-bottom: 10px;
+}
+
+.big i {
+    margin-left: -20px;
+    color: #fff;
+}
+
+.put {
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 10px 5px 11px;
+    border: 1px solid #fff;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+.part3 {
+    display: inline-grid;
+    padding-left: 75px;
+}
+
+.put::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.hig button {
+    width: 55px;
+    height: 28px;
+    background-color: #fff;
+    border: none;
+    opacity: 0.6;
+}
+
+.hig i {
+    opacity: 1;
+    font-size: 15px;
+}
+
+.bubl button {
+    width: 35px;
+    height: 34px;
+    background: transparent;
+    border: 1px #fff solid;
+    border-radius: 17px;
+    margin-right: 2px;
+}
+
+.bubl button:hover {
+    background-color: #00dfd0;
+    border: 1px #00dfd0 solid;
+    transition: 0.3s;
+}
+
+.bubl i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.bubl {
+    padding-top: 25px;
+}
+
+.borp {
+    display: inline-block;
+    margin: 55px 0 0 240px;
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+}
+
+.digr {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+}
+
+.bugr {
+    display: inline-block;
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mugr {
+    display: inline-block;
+    float: right;
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 14px;
+    margin: 55px 175px 0 0;
+}
+
+.line a:hover {
+    color: #00dfd0;
+    transition: 0.2s;
+    text-decoration: revert;
+}
+
+@media (min-width:0px) and (max-width:320px) {
+    .memer {
+        padding: 10px 0 0 20px;
+    }
+
+    .menu_link {
+        font-size: 12px;
+    }
+
+    .menu li {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .menu {
+        margin: 0;
+        display: block;
+    }
+    header {
+        height: 617px;
+    }
+    .Agen {
+        font-size: 17px;
+        text-align: left;
+        padding-left: 25px
+    }
+
+    .TEAM {
+        padding-top: 100px;
+    }
+
+    .This {
+        font-size: 12px;
+    }
+
+    .bbb {
+        margin: 23px 130px 23px 130px;
+    }
+
+    .MORE {
+        padding: 55px 0 55px 0;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo img {
+        width: 95px;
+        padding-top: 120px;
+    }
+
+    .Ipsum {
+        display: block;
+        padding-left: 100px;
+    }
+
+    .STOR {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+
+    .nisi {
+        font-size: 12px;
+    }
+
+    .erat {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .odio {
+        height: 420px;
+    }
+
+    .taciti {
+        padding-top: 120px;
+    }
+
+    .meno {
+        padding: 0;
+    }
+
+    .Lorem {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .sit {
+        border-bottom: none;
+    }
+
+    .Loref {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loren {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Lorem {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loref {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loren {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .memor {
+        font-size: 17px;
+    }
+
+    .miver {
+        font-size: 12px;
+    }
+
+    .maml {
+        margin: 10px 135px 35px 135px;
+    }
+
+    .fyu {
+        padding-bottom: 20px;
+    }
+
+    .torq {
+        height: 1100px;
+    }
+
+    .vers {
+        padding: 0;
+    }
+
+    .noni {
+        font-size: 17px;
+    }
+
+    .veli {
+        font-size: 12px;
+    }
+
+    .valy {
+        margin: 10px 130px 50px 130px;
+    }
+
+    .FOUN {
+        display: block;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    .FOUf {
+        display: block;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    .FOUl {
+        display: block;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    .FOUf {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .Photo {
+        height: auto;
+    }
+
+    .ROMAK {
+        padding-top: 10px;
+    }
+
+    .MOR {
+        padding-top: 15px;
+        padding-bottom: 13px;
+    }
+
+    .chip {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .jec {
+        padding: 37px 0 0 0;
+    }
+
+    .eero {
+        font-size: 13px;
+    }
+
+    .seri img {
+        width: 637px;
+        height: 400px;
+    }
+
+    .part {
+        height: 650px;
+    }
+
+    .lim {
+        padding: 0;
+    }
+
+    .omr {
+        font-size: 13px;
+    }
+
+    .JANE {
+        padding: 65px 0 0 16px;
+    }
+
+    .mard {
+        padding-right: 5px;
+    }
+
+    .ekzi {
+        padding: 0;
+    }
+
+    .TENG {
+        position: relative;
+        height: 770px;
+    }
+
+    .rmix {
+        padding: 0;
+        position: absolute;
+        bottom: 355px;
+        left: 5px;
+    }
+
+    .HAPPY {
+        padding: 0;
+    }
+
+    .inp {
+        padding: 10px 70px 10px 11px;
+    }
+
+    textarea {
+        width: 270px;
+        padding: 2px 3px 2px 6px;
+    }
+
+    .mek {
+        padding-left: 0;
+        width: 173px;
+    }
+
+    .snik {
+        padding: 20px 0 45px 0;
+    }
+
+    .bren1,
+    .bren2,
+    .bren3,
+    .bren4,
+    .bren5 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren6 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren7 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren8 {
+        padding: 25px 0 0 25px;
+    }
+
+    .bren9 {
+        padding: 25px 0 0 10px;
+    }
+
+    .bren10 {
+        padding: 25px 0 0 0px;
+    }
+
+    .erku {
+        padding: 0;
+    }
+
+    .part1 {
+        padding: 0;
+        display: block;
+        position: absolute;
+        top: 85px;
+        left: 40px;
+    }
+
+    .part2 {
+        padding: 0;
+        display: block;
+        position: absolute;
+        top: 206px;
+        left: 40px;
+    }
+
+    .part3 {
+        display: block;
+        padding-left: 35px;
+    }
+
+    footer {
+        height: 575px;
+        position: relative;
+    }
+
+    .meruy {
+        padding: 20px 0 0 80px;
+    }
+
+    .titl1 {
+        padding: 0;
+        margin: 175px 0 0 -87px;
+    }
+
+    .titl2 {
+        padding: 115px 0 0 111px;
+    }
+
+    .piorpl {
+        padding-top: 45px;
+    }
+
+    .borp {
+        margin: 30px 0 0 10px;
+    }
+
+    .mugr {
+        margin: 45px 8px 0 0;
+    }
+}
+
+@media(min-width:321px) and (max-width:425px) {
+    .memer {
+        padding: 10px 0 5px 135px;    
+    }
+
+    header {
+        height: 545px;
+    }
+
+    .menu_link {
+        font-size: 12px;
+    }
+
+    .menu li {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .menu {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .Agen {
+        font-size: 17px;
+        text-align: left;
+        padding-left: 77px
+    }
+
+    .TEAM {
+        padding-top: 100px;
+    }
+
+    .This {
+        font-size: 12px;
+        padding: 0 40px 0 40px;
+    }
+
+    .bbb {
+        margin: 15px 180px 20px 180px;
+    }
+
+    .MORE {
+        padding: 55px 0 55px 0;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo img {
+        width: 95px;
+        padding: 120px 22px 105px 3px;
+    }
+
+    .Ipsum {
+        display: block;
+        padding-left: 100px;
+    }
+
+    .STOR {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+
+    .nisi {
+        font-size: 12px;
+    }
+
+    .erat {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .odio {
+        height: 420px;
+    }
+
+    .taciti {
+        padding-top: 120px;
+    }
+
+    .meno {
+        padding: 0;
+    }
+
+    .Lorem {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .sit {
+        border-bottom: none;
+    }
+
+    .Loref {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loren {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Lorem {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loref {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loren {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .memor {
+        font-size: 17px;
+    }
+
+    .miver {
+        font-size: 12px;
+    }
+
+    .maml {
+        margin: 10px 180px 35px 180px;
+    }
+
+    .fyu {
+        padding-bottom: 20px;
+    }
+
+    .torq {
+        height: 1100px;
+    }
+
+    .vers {
+        padding: 0;
+    }
+
+    .noni {
+        font-size: 17px;
+    }
+
+    .veli {
+        font-size: 12px;
+    }
+
+    .valy {
+        margin: 10px 180px 35px 180px;
+    }
+
+    .FOUN {
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+
+    .FOUf {
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+
+    .FOUl {
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+
+    .FOUf {
+        display: block;
+        margin-left: 100px;
+    }
+
+    .Photo {
+        height: auto;
+    }
+
+    .ROMAK {
+        padding-top: 10px;
+    }
+
+    .MOR {
+        padding-top: 15px;
+        padding-bottom: 13px;
+    }
+
+    .chip {
+        padding: 25px 0 0 0;
+        font-size: 20px;
+    }
+
+    .jec {
+        padding: 37px 0 0 0;
+    }
+
+    .eero {
+        font-size: 13px;
+    }
+
+    .seri img {
+        width: 637px;
+        height: 400px;
+    }
+
+    .part {
+        height: 650px;
+    }
+
+    .lim {
+        padding: 0;
+    }
+
+    .omr {
+        font-size: 13px;
+        padding: 0 40px 50px 40px;
+    }
+
+    .JANE {
+        padding: 65px 0 0 60px;
+    }
+
+    .mard {
+        padding-right: 10px;
+    }
+
+    .ekzi {
+        padding: 0 0 0 20px;
+    }
+
+    .TENG {
+        position: relative;
+        height: 770px;
+    }
+
+    .rmix {
+        padding: 0;
+        position: absolute;
+        bottom: 355px;
+        left: 35px;
+    }
+
+    .HAPPY {
+        padding: 0;
+    }
+
+    .inp {
+        padding: 10px 70px 10px 11px;
+    }
+
+    textarea {
+        width: 270px;
+        padding: 2px 3px 2px 6px;
+    }
+
+    .mek {
+        padding-left: 37px;
+        width: 173px;
+    }
+
+    .erku {
+        padding-left: 25px;
+    }
+
+    form {
+        margin-left: 20px;
+    }
+
+    .snik {
+        padding: 20px 0 45px 20px;
+    }
+
+    .bren1,
+    .bren2,
+    .bren3,
+    .bren4,
+    .bren5 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren6 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren7 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren8 {
+        padding: 25px 0 0 25px;
+    }
+
+    .bren9 {
+        padding: 25px 0 0 10px;
+    }
+
+    .bren10 {
+        padding: 25px 0 0 0px;
+    }
+
+    .part1 {
+        padding: 0;
+        display: block;
+        position: absolute;
+        top: 85px;
+        left: 80px;
+    }
+
+    .part2 {
+        padding: 0;
+        display: block;
+        position: absolute;
+        top: 206px;
+        left: 80px;
+    }
+
+    .part3 {
+        display: block;
+        padding-left: 75px;
+    }
+
+    footer {
+        height: 575px;
+        position: relative;
+    }
+
+    .meruy {
+        padding: 20px 0 0 120px;
+    }
+
+    .titl1 {
+        padding: 0;
+        margin: 175px 0 0 -87px;
+    }
+
+    .titl2 {
+        padding: 120px 0 0 145px;
+    }
+
+    .piorpl {
+        padding-top: 40px;
+    }
+
+    .borp {
+        margin: 30px 0 0 10px;
+    }
+
+    .mugr {
+        margin: 45px 8px 0 0;
+    }
+}
+
+@media(min-width:426px) and (max-width:768px) {
+    .memer {
+        padding: 10px 0 0 330px;
+    }
+
+    .menu_link {
+        font-size: 12px;
+    }
+
+    .menu li {
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .menu {
+        margin: 20px 175px 0 0;
+    }
+
+    .Agen {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .TEAM {
+        padding: 100px 0 0 80px;
+    }
+
+    header {
+        height: 555px;
+    }
+
+    .This {
+        font-size: 12px;
+    }
+
+    .bbb {
+        margin: 15px 265px 20px 265px;
+    }
+
+    .MORE {
+        padding: 55px 0 100px 0;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo img {
+        width: 135px;
+        padding: 70px 0 0 85px;
+    }
+
+    .Ipsum {
+        display: block;
+        padding-left: 310px;
+    }
+
+    .STOR {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+
+    .nisi {
+        font-size: 12px;
+    }
+
+    .erat {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .odio {
+        height: 420px;
+    }
+
+    .taciti {
+        padding-top: 120px;
+    }
+
+    .meno {
+        padding: 0;
+    }
+
+    .Lorem {
+        display: block;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .sit {
+        border: none;
+    }
+    .sig{
+        border: none;
+    }
+    .Loref {
+        display: inline-grid;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loren {
+        display: inline-grid;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Lorem {
+        display: inline-grid;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loref {
+        display: inline-grid;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .Loren {
+        display: inline-grid;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .Lor1{
+        padding-left: 120px;
+    }
+    .Lor2{
+        padding-left: 35px;
+    }
+    .Lor3{
+        padding: 5px 0 0 120px;
+    }
+    .Lor4{
+        padding-left: 35px;
+    }
+    .Lor5{
+        padding: 5px 0 0 120px;
+    }
+    .Lor6{
+        padding-left: 35px;
+    }
+    .stik img{
+        padding: 0;
+    }
+    .memor {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .miver {
+        font-size: 14px;
+    }
+
+    .maml {
+        margin: 10px 340px 35px 340px;
+    }
+
+    .fyu {
+        padding-bottom: 20px;
+    }
+
+    .torq {
+        height: 700px;
+    }
+
+    .vers {
+        padding: 0;
+    }
+
+    .noni {
+        font-size: 19px;
+        padding: 5px 0 5px 0;
+    }
+
+    .veli {
+        font-size: 14px;
+    }
+
+    .valy {
+        margin: 10px 350px 30px 350px;
+    }
+
+    .FOUN {
+        display: inline-grid;
+        margin-left: 140px;
+        margin-bottom: 15px;
+    }
+
+    .FOUf {
+        display: inline-grid;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+
+    .FOUl {
+        display: inline-grid;
+        margin-left: 140px;
+    }
+
+    .FOUf {
+        display: inline-grid;
+        margin-left: 35px;
+    }
+
+    .Photo {
+        height: 830px;
+    }
+
+    .ROMAK {
+        padding-top: 10px;
+    }
+
+    .MOR {
+        padding-top: 25px;
+    }
+
+    .chip {
+        padding: 25px 0 0 25px;
+        font-size: 22px;
+    }
+
+    .jec {
+        padding: 37px 0 0 0;
+    }
+
+    .eero {
+        font-size: 15px;
+    }
+
+    .seri img {
+        width: 770px;
+    }
+
+    .part {
+        height: 650px;
+    }
+
+    .lim {
+        padding: 0;
+    }
+
+    .omr {
+        font-size: 14px;
+    }
+
+    .JANE {
+        padding: 65px 0 0 230px;
+    }
+
+    .mard {
+        padding-right: 9px;
+    }
+    .fyuzhn{
+        height: 445px;
+    }
+    .ekzi{
+        padding: 0;
+    }
+
+    .TENG{
+        height: 500px;
+    }
+    .rmix{
+        padding: 0 210px 0 0;
+    }
+
+    .HAPPY {
+        padding: 0;
+    }
+
+    .inp {
+        padding: 10px 94px 10px 11px;
+        margin: 22px 0 0 10px;
+    }
+
+    textarea {
+        width: 270px;
+        padding: 2px 3px 2px 6px;
+        margin: 22px 0 0 10px;
+    }
+
+    .elit {
+        height: 365px;
+    }
+
+    .mek {
+        padding: 0 35px 0 60px;
+    }
+
+    .snik {
+        padding: 20px 0 45px 10px;
+    }
+
+    .bren1,
+    .bren2,
+    .bren3,
+    .bren4,
+    .bren5 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren6 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren7 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren8 {
+        padding: 25px 0 0 25px;
+    }
+
+    .bren9 {
+        padding: 25px 0 0 10px;
+    }
+
+    .bren10 {
+        padding: 25px 0 0 0px;
+    }
+
+    .erku {
+        padding: 0;
+    }
+
+    .part1 {
+        padding: 0 104px 0 40px;
+        display: inline-grid;
+    }
+
+    .part2 {
+        padding: 0 0 0 20px;
+        display: inline-grid;
+    }
+
+    .part3 {
+        padding: 55px 0 0 40px;
+        display: inline-grid;
+    }
+
+    footer {
+        height: 360px;
+        position: relative;
+    }
+
+    .meruy {
+        padding: 20px 0 0 40px;
+    }
+
+    .titl1 {
+        padding: 0;
+        position: absolute;
+        top: 40px;
+        right: 260px;
+    }
+
+    .titl2 {
+        padding: 0;
+        position: absolute;
+        top: 195px;
+        left: 40px;    
+    }
+
+    .piorpl {
+        padding-top: 90px;
+    }
+
+    .borp {
+        margin: 30px 0 0 10px;
+    }
+
+    .mugr {
+        margin: -45px 183px 0 0;
+    }
+    nav{
+        display: initial;
+        padding: 0 0 0 65px;
+    }
+}
+@media(min-width:769px) and (max-width:1024px)
+{
+    .memer {
+           padding: 20px 0 0 135px;
+    }
+
+    .menu_link {
+        font-size: 12px;
+    }
+
+    .menu li {
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .menu {
+        margin: 35px 80px 0 0;
+    }
+
+    .Agen {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .TEAM {
+        margin: 110px 0 0 -20px;
+        padding: 0;
+    }
+
+    header {
+        height: 530px;
+    }
+
+    .This {
+        font-size: 12px;
+    }
+
+    .bbb {
+        margin: 15px 265px 20px 265px;
+    }
+
+    .MORE {
+        padding: 55px 0 100px 0;
+    }
+
+    .logo {
+        padding: 47px 0 0 185px;
+    }
+
+    .logo img {
+        width: 170px;
+    }
+
+    .Ipsum {
+        display: inline-block;
+        padding-left: 140px;
+    }
+
+    .STOR {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+
+    .nisi {
+        font-size: 13px;
+    }
+
+    .erat {
+        font-size: 13px;
+        padding: 0;
+    }
+
+    .odio {
+        height: 420px;
+    }
+
+    .taciti {
+        padding-top: 120px;
+    }
+
+    .meno {
+        padding: 0;
+    }
+
+    
+    .Lorem {
+        display: inline-grid;
+        padding-left: 100px;
+        width: 280px;
+        height: 163px;
+    }
+
+    .Loref {
+        display: inline-grid;
+        padding: 0;
+        width: 280px;
+        height: 190px;
+    }
+
+    .Loren {
+        display: inline-grid;
+        padding: 0;
+        width: 250px;
+        height: 163px;
+    }
+    .Lor1{
+        padding-left: 100px;
+    }
+    .memor {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .miver {
+        font-size: 14px;
+    }
+
+    .maml {
+        margin: 10px 480px 35px 480px;
+    }
+    .torq {
+        height: 630px;
+    }
+
+    .vers {
+        padding: 0;
+    }
+
+    .noni {
+        font-size: 19px;
+        padding: 20px 0 5px 0;
+    }
+
+    .veli {
+        font-size: 14px;
+    }
+
+    .valy {
+        margin: 10px 480px 60px 480px;
+    }
+
+    .FOUN {
+        display: inline-grid;
+        margin-left: 32px;
+    }
+
+    .FOUf {
+        display: inline-grid;
+        margin-left: 20px;
+    }
+
+    .FOUl {
+        display: inline-grid;
+        margin-left: 20px;
+    }
+
+    .FOUf {
+        display: inline-grid;
+        margin-left: 20px;
+    }
+
+    .Photo {
+        height: 645px;
+    }
+
+    .ROMAK {
+        padding-top: 35px;
+    }
+
+    .MOR {
+        padding-top: 25px;
+    }
+
+    .chip {
+        padding: 25px 0 0 25px;
+        font-size: 22px;
+    }
+
+    .jec {
+        padding: 35px 0 0 0;
+    }
+
+    .eero {
+        font-size: 15px;
+    }
+
+    .seri img {
+        width: 1024px;
+    }
+
+    .part {
+        height: 650px;
+    }
+
+    .lim {
+        padding: 0;
+    }
+
+    .omr {
+        font-size: 14px;
+    }
+
+    .JANE {
+        padding: 55px 0 0 350px;
+    }
+
+    .mard {
+        padding-right: 9px;
+    }
+    .fyuzhn{
+        height: 425px;
+    }
+    .ekzi{
+        padding: 25px 0 0 90px;
+    }
+
+    .TENG{
+        height: 500px;
+    }
+    .rmix{
+        padding: 25px 310px 0 0;
+    }
+
+    .HAPPY {
+        padding: 0 0 0 90px;
+    }
+
+    .inp {
+        padding: 10px 94px 10px 11px;
+        margin: 22px 0 0 0;
+    }
+
+    textarea {
+        width: 270px;
+        padding: 2px 3px 2px 6px;
+        margin: 22px 0 0 0;
+    }
+
+    .elit {
+        height: 365px;
+    }
+
+    .mek {
+        padding: 0 35px 0 120px;
+    }
+
+    .snik {
+        padding: 20px 0 45px 0;
+    }
+
+    .bren1,
+    .bren2,
+    .bren3,
+    .bren4,
+    .bren5 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren6 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren7 {
+        padding: 25px 0 0 0px;
+    }
+
+    .bren8 {
+        padding: 25px 0 0 25px;
+    }
+
+    .bren9 {
+        padding: 25px 0 0 10px;
+    }
+
+    .bren10 {
+        padding: 25px 0 0 0px;
+    }
+
+    .erku {
+        padding: 0;
+    }
+
+    .part1 {
+        padding: 0 60px 0 65px;
+        display: inline-grid;
+    }
+
+    .part2 {
+        padding: 0 0 0 20px;
+        display: inline-grid;
+    }
+
+    .part3 {
+        padding: 0 0 0 40px;
+        display: inline-grid;
+    }
+
+    footer {
+        height: 340px;
+    }
+
+    .meruy {
+        padding: 40px 0 0 65px;
+    }
+
+    .titl1 {
+        padding: 65px 0 0 214px;
+    }
+
+    .titl2 {
+        padding: 0 0 0 186px;    
+    }
+
+    .piorpl {
+        padding-top: 50px;
+    }
+
+    .borp {
+        margin: 50px 0 0 0;
+    }
+
+    .mugr {
+        margin: 50px 125px 0 0;
+    }
+    nav{
+        display: initial;
+        padding: 0 0 0 65px;
+    }
+}
+@media(min-width:1025px) and (min-width:1440px){
+    .memer img{
+        width: 55px;
+    }
+    .memer span{
+        font-size: 35px;
+    }
+    .Lorem{
+        padding-left: 295px;
+    }
+    .maml{
+        margin: 10px 280px 70px 280px;
+    }
+    .valy{
+        margin: 10px 285px 60px 285px;
+    }
+    .Photo{
+        background-image: url(../img/nkar1440.jpg);
+        height: 642px;
+    }
+    .ROMAK{
+        padding-top: 60px;
+    }
+    .vers {
+        padding: 50px 400px 0 400px;
+    }
+    .FOUN{
+        margin-left: 230px;
+    }
+    .seri img{
+        width: 1440px;
+        height: 410px;
+    }
+    .chip{
+        font-size: 27px;
+        padding: 70px 0 0 190px;
+    }
+    .eero{
+        font-size: 17px;
+    }
+    .jec{  
+        padding: 83px 155px 0 0;
+    }
+    .JANE{
+        padding: 50px 0 0 562px;
+    }
+    .mek{
+        padding-left: 80px;
+    }
+    .rmix{
+        padding: 80px 550px 0 0;
+    }
+    .Agen{
+        font-size: 38px;
+    }
+}
